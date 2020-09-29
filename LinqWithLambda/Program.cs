@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LinqWithLambda.Tests;
+using System;
 
 namespace LinqWithLambda
 {
@@ -6,7 +7,11 @@ namespace LinqWithLambda
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ITest test = new TestAllCustomers();
+
+            test.Test();
+
+            Console.ReadLine();
         }
     }
 }

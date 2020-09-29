@@ -10,7 +10,7 @@ namespace LinqWithLambda.Database
         public static List<Customer> GetCustomers()
         {
             var customers = new List<Customer>();
-            for (int index = 0; index < 50; index++)
+            for (int index = 0; index <= 50; index++)
             {
                 var customer = new Customer();
                 customer.Id = index;

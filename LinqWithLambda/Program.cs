@@ -7,7 +7,7 @@ namespace LinqWithLambda
     {
         static void Main(string[] args)
         {
-            ITest test = new TestWhere();
+            ITest test = new TestAny();
 
             test.Test();
 

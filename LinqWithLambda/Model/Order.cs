@@ -7,7 +7,7 @@ namespace LinqWithLambda.Model
     class Order
     {
         public int Id { get; set; }
-        public int CostumerId { get; set; }
+        public int CustomerId { get; set; }
         public DateTime CreatedDate { get; set; }
         public decimal TotalValue { get; set; }
 

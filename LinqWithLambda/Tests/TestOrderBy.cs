@@ -15,7 +15,7 @@ namespace LinqWithLambda.Tests
             var customerOrders = customers.Join(
                 orders,
                 customer => customer.Id,
-                order => order.CostumerId,
+                order => order.CustomerId,
                 (customer, order) => new
                     {
                         CustomerId = customer.Id,

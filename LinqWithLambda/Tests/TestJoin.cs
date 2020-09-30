@@ -53,7 +53,7 @@ namespace LinqWithLambda.Tests
             var customerOrders = customers.GroupJoin(
                     orders,
                     customer => customer.Id,
-                    order => order.CostumerId,
+                    order => order.CustomerId,
                     ( customer, allOrders ) => new {Customer = customer, AllOrders = allOrders}
                 );
 

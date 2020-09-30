@@ -24,14 +24,14 @@ namespace LinqWithLambda.Tests
 
             foreach (var order in firstCustomersOrders)
             {
-                Console.WriteLine("Costumer " + order.CostumerId + " purchased: " + order.TotalValue.ToString("c2"));
+                Console.WriteLine("Costumer " + order.CustomerId + " purchased: " + order.TotalValue.ToString("c2"));
             }
 
         }
 
         private bool ValidateOrders(Model.Order order)
         {
-            return (order.CostumerId == 1 && order.TotalValue > 1000) || (order.CostumerId == 2);
+            return (order.CustomerId == 1 && order.TotalValue > 1000) || (order.CustomerId == 2);
         }
     }
 }

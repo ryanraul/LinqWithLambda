@@ -36,7 +36,7 @@ namespace LinqWithLambda.Database
 
                 order.Id = index;
                 order.CostumerId = customerId;
-                order.CreateDate = DateTime.Now;
+                order.CreatedDate = DateTime.Now;
                 order.TotalValue = 10 * index;
 
                 orders.Add(order);

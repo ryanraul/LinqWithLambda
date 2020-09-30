@@ -7,7 +7,7 @@ namespace LinqWithLambda
     {
         static void Main(string[] args)
         {
-            ITest test = new TestContains();
+            ITest test = new TestAll();
 
             test.Test();
 

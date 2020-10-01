@@ -7,7 +7,7 @@ namespace LinqWithLambda
     {
         static void Main(string[] args)
         {
-            ITest test = new TestGroupBy();
+            ITest test = new TestUnion();
 
             test.Test();
 

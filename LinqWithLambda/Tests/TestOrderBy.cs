@@ -28,7 +28,7 @@ namespace LinqWithLambda.Tests
 
             foreach (var customerOrder in customerOrders.OrderBy(order => order.TotalValue))
             {
-                //Console.WriteLine(customerOrder.Name + " purchased " + customerOrder.TotalValue.ToString("c2"));
+                Console.WriteLine(customerOrder.Name + " purchased " + customerOrder.TotalValue.ToString("c2"));
             }
 
             foreach (var customerOrder in customerOrders.OrderBy(order => order.Name).ThenBy(order => order.TotalValue))

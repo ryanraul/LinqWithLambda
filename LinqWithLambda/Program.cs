@@ -7,7 +7,7 @@ namespace LinqWithLambda
     {
         static void Main(string[] args)
         {
-            ITest test = new TestCountMaxMin();
+            ITest test = new TestSumAverage();
 
             test.Test();
 

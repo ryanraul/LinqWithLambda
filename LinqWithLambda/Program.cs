@@ -7,7 +7,7 @@ namespace LinqWithLambda
     {
         static void Main(string[] args)
         {
-            ITest test = new TestDistinct();
+            ITest test = new TestCountMaxMin();
 
             test.Test();
 
